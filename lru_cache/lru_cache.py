@@ -9,7 +9,7 @@ class LRUCache:
         # Current Size
         self.size = 0 
         # Limit
-        self.limit = 10
+        self.limit = limit
 
     def get(self, key):
         # get value out of dictionary
